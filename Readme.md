@@ -33,7 +33,7 @@ pip install .
 
 Or install directly from GitHub:
 ```bash
-pip install "git+https://github.com/<you>/<repo>.git" ### A CHANGER !
+pip install "git+https://github.com/MNHN-OFVI/DeepForestVisionV2.git"
 ```
 ### Developers (edit code + run tests)
 ```bash
