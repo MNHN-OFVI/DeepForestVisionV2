@@ -10,8 +10,8 @@ venv/
 .idea/
 
 temp/
-predictions/
-data/
+/predictions/
+/data/
 
 # Packaging / build artifacts
 build/

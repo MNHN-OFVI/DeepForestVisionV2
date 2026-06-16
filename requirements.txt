@@ -8,3 +8,5 @@ torchvision
 transformers
 supervision
 PytorchWildlife
+soundfile
+librosa

@@ -7,7 +7,7 @@ name = "deepforestvision"
 version = "2.0.0"
 description = "DeepForestVision v2: wildlife identification for African tropical forest camera-trap images and videos."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10,<3.13"
 dependencies = [
     "numpy",
     "pandas",
@@ -18,7 +18,9 @@ dependencies = [
     "torchvision",
     "transformers",
     "supervision",
-    "PytorchWildlife"
+    "PytorchWildlife",
+    "soundfile",
+    "librosa"
 ]
 
 [project.optional-dependencies]
