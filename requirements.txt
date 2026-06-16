@@ -1,0 +1,10 @@
+numpy
+pandas
+tqdm
+pillow
+opencv-python
+torch
+torchvision
+transformers
+supervision
+PytorchWildlife
