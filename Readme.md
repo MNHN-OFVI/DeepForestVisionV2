@@ -6,7 +6,7 @@ It is developed under **CC BY-NC-SA 4.0** by an academic team from the French Mu
 
 DeepForestVision v2 is also available in the AddaxAI interface (Windows / Linux / macOS, no programming required). This GitHub repository provides model weights and inference code.
 
-**Paper:** Submitted to IEEE IJCNN  
+**Paper:** Accepted at ICPR 2026
 **Contacts:** hugo.magaldi@mnhn.fr; sabrina.krief@mnhn.fr
 
 ## What it does

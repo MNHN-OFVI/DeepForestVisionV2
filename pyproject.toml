@@ -8,7 +8,18 @@ version = "2.0.0"
 description = "DeepForestVision v2: wildlife identification for African tropical forest camera-trap images and videos."
 readme = "README.md"
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "numpy",
+    "pandas",
+    "tqdm",
+    "pillow",
+    "opencv-python",
+    "torch",
+    "torchvision",
+    "transformers",
+    "supervision",
+    "PytorchWildlife"
+]
 
 [project.optional-dependencies]
 dev = ["pytest", "pytest-cov"]
@@ -16,11 +27,17 @@ dev = ["pytest", "pytest-cov"]
 [project.scripts]
 deepforestvision = "deepforestvision.cli:main"
 
-[tool.setuptools]
-packages = ["deepforestvision"]
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["deepforestvision*"]
+exclude = ["tests*", "data*", "outputs*", "runs*", "notebooks*"]
+
+[tool.setuptools.package-data]
+deepforestvision = ["weights/**/*"]
 
 [project.urls]
 Homepage = "https://www.oneforestvision.org"
 AddaxAI = "https://addaxdatascience.com/addaxai/"
-Paper = "SUBMITTED TO IEEE IJCNN"
+Paper = "ACCEPTED AT ICPR 2026"
+DeepForestVisionV1 = "https://besjournals.onlinelibrary.wiley.com/doi/10.1002/2688-8319.70167"
 License = "https://creativecommons.org/licenses/by-nc-sa/4.0"
